@@ -25,13 +25,12 @@ To run the app locally, you need to have [Node.js] and [npm] installed on your m
 - Customizable profile page where you can upload your photo, bio, and links to your social media accounts.
 - Browse page where you can explore different categories and see the profiles of talented people.
 - Search functionality that allows you to filter the profiles by name, category, or location.
-- Like functionality that allows you to show your appreciation for other people's talents.
-- Chat functionality that allows you to communicate with other users in real-time using [Socket.IO].
+
 
 ## Technologies
 
 - React JS - A JavaScript library for building user interfaces.
 - Tailwind - A utility-first CSS framework that provides a set of customizable classes for styling elements.
-- APIs - Application programming interfaces that provide data and functionality from external sources, such as [Unsplash], [YouTube], [Spotify], etc.
-- Firebase - A platform that provides various services for web and mobile development, such as authentication, database, storage, hosting, etc.
-- Socket.IO - A library that enables real-time, bidirectional, and event-based communication between the browser and the server.
+- APIs - Application programming interfaces that provide data and functionality from external sources, such as [Unsplash], [DadJokes], [Picsum], etc.
+- Local Storage - A way to store data locally.
+
