@@ -4,7 +4,7 @@ Talent Track is a web application that helps you discover and connect with talen
 
 ## Demo
 
-You can view the deployed version of the app [here].
+You can view the deployed version of the app [(https://talent-track-bitan.netlify.app/)].
 
 ## Installation
 
