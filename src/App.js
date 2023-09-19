@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-// import EmployeeTable from "./components/EmployeeTable";
+import EmployeeTable from "./components/EmployeeTable";
 import EmployeeModal from "./components/EmployeeModal";
 import EmployeeForm from "./components/EmployeeForm";
 import EmployeeCards from "./components/EmployeeCards";
@@ -88,7 +88,7 @@ const App = () => {
             }
           />
         </Routes>
-        {/* <Routes>
+        <Routes>
           <Route
             path="/table"
             element={
@@ -99,7 +99,7 @@ const App = () => {
               />
             }
           />
-        </Routes> */}
+        </Routes>
       </BrowserRouter>
       {selectedEmployee && (
         <EmployeeModal

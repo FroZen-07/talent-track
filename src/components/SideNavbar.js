@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import {
   AiOutlineForm,
   AiOutlineUnorderedList,
-  // AiOutlineTable,
+  AiOutlineTable,
 } from "react-icons/ai";
 
 function SideNavbar() {
@@ -35,7 +35,7 @@ function SideNavbar() {
             </div>
           </Link>
         </nav>
-        {/* <nav className=" cursor-pointer hover:text-gray-200 ">
+        <nav className=" cursor-pointer hover:text-gray-200 ">
           <Link to="/table">
             <div className="flex justify-center items-center">
               <div>
@@ -44,7 +44,7 @@ function SideNavbar() {
               <div>Table</div>
             </div>
           </Link>
-        </nav> */}
+        </nav>
       </div>
     </div>
   );
